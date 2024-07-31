@@ -1,0 +1,12 @@
+.calender-container {
+       align-items: center;
+       display: grid;
+       grid-template-columns: 20% 60% 20%;
+}
+
+.calender-wrapper {
+    display: flex;
+    flex-direction: column;    
+    width: 50%;
+    margin: auto;
+}

@@ -1,0 +1,30 @@
+.time-container {
+    display: flex;
+    overflow: auto;
+    max-height: 80vh;
+    margin: auto 0;
+    padding: 25px;
+
+    .timeline {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+        .time {
+            display: grid;
+            width: 100%;
+            grid-template-columns: 20% 80%;
+
+            div {
+                border: 1px solid;
+                width: 100%;
+                cursor: pointer;
+                border-bottom: unset;
+                :last-child{
+                    border-bottom: 1px solid;
+                }
+            }
+        }
+    }
+}
